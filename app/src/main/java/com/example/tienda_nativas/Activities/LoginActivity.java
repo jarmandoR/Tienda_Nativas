@@ -12,7 +12,7 @@ public class LoginActivity extends AppCompatActivity {
     Button btn_comenzar;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login); // Aquí enlazas el XML que quieres mostrar
+        setContentView(R.layout.activity_login); // Se enlaza el XML que quieres mostrar
 
 
         // Botón Empezar

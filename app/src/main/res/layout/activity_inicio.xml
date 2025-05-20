@@ -24,6 +24,9 @@
             android:padding="10dp">
 
             <!-- Icono de carrito de compras -->
+
+            <!-- Título de la tienda -->
+
             <ImageView
                 android:id="@+id/cartIcon"
                 android:layout_width="58dp"
@@ -32,7 +35,6 @@
                 android:contentDescription="Carrito de compras"
                 android:src="@drawable/carrito" />
 
-            <!-- Título de la tienda -->
             <TextView
                 android:layout_width="291dp"
                 android:layout_height="wrap_content"
@@ -52,6 +54,8 @@
                 android:src="@drawable/humano" />
         </LinearLayout>
 
+        <!-- Productos destacados -->
+
         <ImageView
             android:id="@+id/logoTechShop"
             android:layout_width="92dp"
@@ -60,8 +64,6 @@
             android:layout_marginStart="2dp"
             android:layout_marginTop="54dp"
             android:src="@drawable/iconotienda" />
-
-        <!-- Productos destacados -->
 
         <EditText
             android:id="@+id/searchBar"
@@ -96,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/searchBar"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="275dp"
+            android:layout_marginTop="294dp"
             android:layout_marginRight="10dp" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView

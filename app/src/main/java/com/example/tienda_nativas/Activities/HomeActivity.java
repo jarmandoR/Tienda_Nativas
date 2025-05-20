@@ -16,7 +16,7 @@ public class HomeActivity  extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home); // Aquí enlazas el XML que quieres mostrar
+        setContentView(R.layout.activity_home); // Aquí se enlaza el XML que quieres mostrar
 
         // Botón Empezar
         btn_comenzar = findViewById(R.id.btn_comenzar);

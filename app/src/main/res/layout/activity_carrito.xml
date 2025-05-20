@@ -58,6 +58,8 @@
             android:textStyle="bold" />
 
         <!-- Lista de productos -->
+
+        <!-- Total y botón de comprar -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/cartRecyclerView"
             android:layout_width="match_parent"
@@ -65,7 +67,6 @@
             android:layout_weight="1"
             android:padding="8dp" />
 
-        <!-- Total y botón de comprar -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
