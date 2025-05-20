@@ -11,7 +11,8 @@
         android:background="@color/Azul"
         android:elevation="4dp"
         android:orientation="horizontal"
-        android:padding="10dp">
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
 
         <!-- Icono de carrito de compras -->
 
