@@ -73,6 +73,21 @@
             android:text="Iniciar Sesión"
             android:textColor="#FFFFFF" />
 
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="182dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#DB4437"
+            android:drawableStart="@drawable/google"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:text="Continuar con Google"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/forgotPasswordTextView"
             android:layout_width="wrap_content"
