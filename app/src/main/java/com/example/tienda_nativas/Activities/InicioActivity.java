@@ -33,8 +33,8 @@ public class InicioActivity extends AppCompatActivity {
 
         // Crear lista de productos
         featuredProducts = new ArrayList<>();
-        featuredProducts.add(new Product("Iphone 15Pro", "$120.00", R.drawable.dispositivos));
-        featuredProducts.add(new Product("Reloj Casio", "$200.000", R.drawable.dispositivos));
+        featuredProducts.add(new Product("Iphone 15Pro", "$120.00", R.drawable.iphone_15_plus_hero));
+        featuredProducts.add(new Product("Reloj Casio", "$200.000", R.drawable.huawei_watch_fit_smart_watch_v2));
         featuredProducts.add(new Product("Auriculares Sony", "$150.00", R.drawable.dispositivos));
         featuredProducts.add(new Product("Lenovo Pad11", "$800.000", R.drawable.dispositivos));
 
@@ -51,6 +51,14 @@ public class InicioActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        ImageView mapicon = findViewById(R.id.mapIcon);
+        mapicon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(InicioActivity.this,MapsActivity.class);
+                startActivity(intent);
+            }
+        });
 
             RecyclerView recyclerView = findViewById(R.id.recyclerFeatured2);
 
@@ -60,9 +68,12 @@ public class InicioActivity extends AppCompatActivity {
 
     // Creamos una lista de productos
             List<Producto> listaProductos = new ArrayList<>();
-            listaProductos.add(new Producto("Laptop", "$1.500.000", R.drawable.dispositivos));
-            listaProductos.add(new Producto("Audífonos", "$200.000", R.drawable.dispositivos));
-            listaProductos.add(new Producto("Mouse", "$40.000", R.drawable.dispositivos));
+            listaProductos.add(new Producto("Laptop", "$1.500.000", R.drawable.laptop));
+            listaProductos.add(new Producto("Audífonos", "$200.000", R.drawable.audifonos));
+            listaProductos.add(new Producto("Mouse", "$40.000", R.drawable.mouse));
+            listaProductos.add(new Producto("Audífonos", "$200.000", R.drawable.audifonos));
+            listaProductos.add(new Producto("Mouse", "$40.000", R.drawable.mouse));
+            listaProductos.add(new Producto("Mouse", "$40.000", R.drawable.mouse));
     // agrega todos los productos que quieras
 
     // Creamos y seteamos el adaptador
