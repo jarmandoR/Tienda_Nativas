@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
         android:allowBackup="true"
@@ -44,6 +50,11 @@
             />
         <!-- Activity del mapa -->
         <activity android:name=".Activities.MapsActivity"
+            android:exported="false"/>
+        <!-- Activity de agregar productos -->
+        <activity android:name=".Activities.agregarProductoActivity"
+            android:exported="false"/>
+        <activity android:name=".Activities.ProductoListActivityg"
             android:exported="false"/>
 
     </application>

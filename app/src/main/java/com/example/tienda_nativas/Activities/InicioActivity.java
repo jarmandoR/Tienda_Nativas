@@ -51,6 +51,14 @@ public class InicioActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        ImageView agregarIcon = findViewById(R.id.agregarIcon);
+        agregarIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(InicioActivity.this,ProductoListActivityg.class);
+                startActivity(intent);
+            }
+        });
         ImageView mapicon = findViewById(R.id.mapIcon);
         mapicon.setOnClickListener(new View.OnClickListener() {
             @Override
